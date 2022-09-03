@@ -1,5 +1,7 @@
 # yourstage
-A PERN stack application to assist users with keeping track of cargo being staged after packing, but pending for driver pick up
+A PERN stack application to assist users with keeping track of cargo being staged after packing, but pending for driver pick up.
+
+This application is currently hosted on heroku.
 
 ## Background
 I created this stack after learning javascript and nodejs to solve an issue at work.
