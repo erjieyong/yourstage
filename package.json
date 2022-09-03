@@ -1,0 +1,23 @@
+{
+  "name": "putarel",
+  "version": "1.0.0",
+  "description": "My first web app for warehouse to log cargoes that has been PGI or packed, but not yet collected by forwarder. These cargoes are normally all put in a same location called PACKED or STAGE. So it will be hard to find them when forwarder comes to collect",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.1",
+    "npm": "6.14.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Jie Yong",
+  "license": "ISC"
+}
