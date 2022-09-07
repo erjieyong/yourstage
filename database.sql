@@ -1,5 +1,5 @@
 /*sql commands for postgres*/ 
-CREATE DATABASE waters;
+CREATE DATABASE DB_NAME;
 
 
 /*new updated table creation commands*/
